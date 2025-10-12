@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ภัทรชัย ตันตระกูล — Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">ภัทรชัย ตันตระกูล</h1>
+
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero container">
+      <img src="123.jpg" alt="รูปโปรไฟล์" class="avatar" />
+      <div>
+        <h2>สวัสดีครับ ผมชื่อ <strong>ภัทรชัย ตันตระกูล</strong></h2>
+        <p>นักศึกษาคณะเทคโนโลยีสารสนเทศและอุตสาหกรรม<br>
+           สนใจด้านดนตรีและเทคโนโลยีเสียง</p>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h3>About Me</h3>
+      <p>
+        ผมเป็นนักศึกษาคณะเทคโนโลยีสารสนเทศและอุตสาหกรรม  
+        มีความสนใจทั้งในด้านเทคโนโลยีและงานสร้างสรรค์ทางดนตรี  
+        ชอบเรียนรู้สิ่งใหม่ ๆ และนำเทคโนโลยีมาช่วยพัฒนาผลงานของตนเอง
+      </p>
+    </section>
+
+    <section id="skills" class="container projects">
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>ทำเพลง (Music Production)</li>
+        <li>Mix & Master เบื้องต้น</li>
+        <li>ใช้โปรแกรมแต่งเสียง (เช่น FL Studio / Audacity)</li>
+        <li>พื้นฐานเทคโนโลยีสารสนเทศ</li>
+        <li>HTML & CSS เบื้องต้น</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>📧 Email: <a href="mailto:s6806021412054@email.kmutnb.ac.th">
+        s6806021412054@email.kmutnb.ac.th
+      </a></p>
+      <p>💻 GitHub: <a href="https://github.com/" target="_blank">github.com/</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> ภัทรชัย ตันตระกูล</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
